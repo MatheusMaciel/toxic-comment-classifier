@@ -1,0 +1,18 @@
+---
+title: "Toxic Comments EDA"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+
+
+
+data <- read.csv('../data/train.csv')
+```
+
+```{r}
+summary()
+```
+
